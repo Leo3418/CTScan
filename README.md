@@ -1,6 +1,6 @@
 # CT Scan
 
-![Screenshots](https://cloud.githubusercontent.com/assets/14175175/21286692/ac5b601e-c495-11e6-9502-51d363d23b89.png)
+![Screenshots](https://cloud.githubusercontent.com/assets/14175175/21286728/a7eaa688-c496-11e6-998f-fb65c4d72747.png)
 
 ## What is it?
 CT Scan is an interesting mini Android application which simulates how a computer analyzes voxel data from a CT scanner.  
