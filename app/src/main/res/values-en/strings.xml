@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CT Scan</string>
+    <string name="analysis">Analysis</string>
+    <string name="enter_voxel">Please enter your voxel:</string>
+    <string name="horizontal">Horizontal View</string>
+    <string name="topleft_bottomright">Top-left to Bottom-right View</string>
+    <string name="vertical">Vertical View</string>
+    <string name="topright_bottomleft">Top-right to Bottom-left View</string>
+    <string name="overall">Overall</string>
+    <string name="background">Background</string>
+    <string name="result">Result</string>
+    <string name="no_input_warning">Please enter all the values for your voxel.</string>
+    <string name="about">About</string>
+    <string name="about_message">CT Scan © 2016 Leo3418 (https://github.com/Leo3418)\nThis program is licensed under MIT License.\nYou can find a copy of MIT License and the source code of this program on GitHub.</string>
+    <string name="goto_GitHub">Go to GitHub</string>
+    <string name="ok">OK</string>
+</resources>

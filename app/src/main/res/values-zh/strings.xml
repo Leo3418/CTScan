@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CT 扫描</string>
+    <string name="analysis">分析</string>
+    <string name="enter_voxel">请输入您的立体像素：</string>
+    <string name="horizontal">水平视图</string>
+    <string name="topleft_bottomright">左上至右下视图</string>
+    <string name="topright_bottomleft">右上至左下视图</string>
+    <string name="vertical">垂直视图</string>
+    <string name="overall">整体</string>
+    <string name="background">背景</string>
+    <string name="result">结果</string>
+    <string name="no_input_warning">请输入您的立体像素的全部数值。</string>
+    <string name="about">关于</string>
+    <string name="about_message">CT 扫描 © 2016 Leo3418 (https://github.com/Leo3418)\n此软件基于 MIT 许可协议进行授权。\n您可以在 GitHub 上获取一份 MIT 许可协议的副本和此软件的源代码。</string>
+    <string name="goto_GitHub">前往 GitHub</string>
+    <string name="ok">确定</string>
+</resources>
