@@ -125,7 +125,7 @@ public class ResultActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int id){
                         // Visit GitHub
                         dialog.dismiss();
-                        String url = "https://github.com/Leo3418/CTscan";
+                        String url = "https://github.com/Leo3418/CTScan";
                         Intent view_GPL = new Intent(Intent.ACTION_VIEW);
                         view_GPL.setData(Uri.parse(url));
                         startActivity(view_GPL);
