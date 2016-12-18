@@ -54,9 +54,9 @@ public class MainActivity extends AppCompatActivity {
                         // Visit GitHub
                         dialog.dismiss();
                         String url = "https://github.com/Leo3418/CTScan";
-                        Intent view_GPL = new Intent(Intent.ACTION_VIEW);
-                        view_GPL.setData(Uri.parse(url));
-                        startActivity(view_GPL);
+                        Intent goto_GitHub = new Intent(Intent.ACTION_VIEW);
+                        goto_GitHub.setData(Uri.parse(url));
+                        startActivity(goto_GitHub);
                     }
                 });
                 // Construct an "OK" button
