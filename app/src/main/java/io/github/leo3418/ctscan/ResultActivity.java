@@ -34,76 +34,48 @@ public class ResultActivity extends AppCompatActivity {
         // Specify the instance variable of the object
         input.setVoxel(voxel);
         // Specify TextView objects in GUI which will display output
-        TextView horizontal0 = (TextView) findViewById(R.id.horizontal0);
-        TextView horizontal1 = (TextView) findViewById(R.id.horizontal1);
-        TextView horizontal2 = (TextView) findViewById(R.id.horizontal2);
-        TextView horizontal3 = (TextView) findViewById(R.id.horizontal3);
+        TextView horizontal02 = (TextView) findViewById(R.id.horizontal02);
+        TextView horizontal13 = (TextView) findViewById(R.id.horizontal13);
 
-        TextView topleft_bottomright0 = (TextView) findViewById(R.id.topleft_bottomright0);
-        TextView topleft_bottomright1 = (TextView) findViewById(R.id.topleft_bottomright1);
-        TextView topleft_bottomright2 = (TextView) findViewById(R.id.topleft_bottomright2);
-        TextView topleft_bottomright3 = (TextView) findViewById(R.id.topleft_bottomright3);
+        TextView topleft_bottomright02 = (TextView) findViewById(R.id.topleft_bottomright02);
+        TextView topleft_bottomright13 = (TextView) findViewById(R.id.topleft_bottomright13);
 
-        TextView vertical0 = (TextView) findViewById(R.id.vertical0);
-        TextView vertical1 = (TextView) findViewById(R.id.vertical1);
-        TextView vertical2 = (TextView) findViewById(R.id.vertical2);
-        TextView vertical3 = (TextView) findViewById(R.id.vertical3);
+        TextView vertical02 = (TextView) findViewById(R.id.vertical02);
+        TextView vertical13 = (TextView) findViewById(R.id.vertical13);
 
-        TextView topright_bottomleft0 = (TextView) findViewById(R.id.topright_bottomleft0);
-        TextView topright_bottomleft1 = (TextView) findViewById(R.id.topright_bottomleft1);
-        TextView topright_bottomleft2 = (TextView) findViewById(R.id.topright_bottomleft2);
-        TextView topright_bottomleft3 = (TextView) findViewById(R.id.topright_bottomleft3);
+        TextView topright_bottomleft02 = (TextView) findViewById(R.id.topright_bottomleft02);
+        TextView topright_bottomleft13 = (TextView) findViewById(R.id.topright_bottomleft13);
 
-        TextView overall0 = (TextView) findViewById(R.id.overall0);
-        TextView overall1 = (TextView) findViewById(R.id.overall1);
-        TextView overall2 = (TextView) findViewById(R.id.overall2);
-        TextView overall3 = (TextView) findViewById(R.id.overall3);
+        TextView overall02 = (TextView) findViewById(R.id.overall02);
+        TextView overall13 = (TextView) findViewById(R.id.overall13);
 
-        TextView background0 = (TextView) findViewById(R.id.background0);
-        TextView background1 = (TextView) findViewById(R.id.background1);
-        TextView background2 = (TextView) findViewById(R.id.background2);
-        TextView background3 = (TextView) findViewById(R.id.background3);
+        TextView background02 = (TextView) findViewById(R.id.background02);
+        TextView background13 = (TextView) findViewById(R.id.background13);
 
-        TextView result0 = (TextView) findViewById(R.id.result0);
-        TextView result1 = (TextView) findViewById(R.id.result1);
-        TextView result2 = (TextView) findViewById(R.id.result2);
-        TextView result3 = (TextView) findViewById(R.id.result3);
+        TextView result02 = (TextView) findViewById(R.id.result02);
+        TextView result13 = (TextView) findViewById(R.id.result13);
 
         // Get outputs from the "CTscan" class and apply them to TextView objects above
-        horizontal0.setText(String.valueOf(input.getHorizontal()[0]));
-        horizontal1.setText(String.valueOf(input.getHorizontal()[1]));
-        horizontal2.setText(String.valueOf(input.getHorizontal()[2]));
-        horizontal3.setText(String.valueOf(input.getHorizontal()[3]));
+        horizontal02.setText(String.valueOf(input.getHorizontal()[0]) + "\n" + String.valueOf(input.getHorizontal()[2]));
+        horizontal13.setText(String.valueOf(input.getHorizontal()[1]) + "\n" + String.valueOf(input.getHorizontal()[3]));
 
-        topleft_bottomright0.setText(String.valueOf(input.getTopleft_Bottomright()[0]));
-        topleft_bottomright1.setText(String.valueOf(input.getTopleft_Bottomright()[1]));
-        topleft_bottomright2.setText(String.valueOf(input.getTopleft_Bottomright()[2]));
-        topleft_bottomright3.setText(String.valueOf(input.getTopleft_Bottomright()[3]));
+        topleft_bottomright02.setText(String.valueOf(input.getTopleft_Bottomright()[0]) + "\n" + String.valueOf(input.getTopleft_Bottomright()[2]));
+        topleft_bottomright13.setText(String.valueOf(input.getTopleft_Bottomright()[1]) + "\n" + String.valueOf(input.getTopleft_Bottomright()[3]));
 
-        vertical0.setText(String.valueOf(input.getVertical()[0]));
-        vertical1.setText(String.valueOf(input.getVertical()[1]));
-        vertical2.setText(String.valueOf(input.getVertical()[2]));
-        vertical3.setText(String.valueOf(input.getVertical()[3]));
+        vertical02.setText(String.valueOf(input.getVertical()[0]) + "\n" + String.valueOf(input.getVertical()[2]));
+        vertical13.setText(String.valueOf(input.getVertical()[1]) + "\n" + String.valueOf(input.getVertical()[3]));
 
-        topright_bottomleft0.setText(String.valueOf(input.getTopright_Bottomleft()[0]));
-        topright_bottomleft1.setText(String.valueOf(input.getTopright_Bottomleft()[1]));
-        topright_bottomleft2.setText(String.valueOf(input.getTopright_Bottomleft()[2]));
-        topright_bottomleft3.setText(String.valueOf(input.getTopright_Bottomleft()[3]));
+        topright_bottomleft02.setText(String.valueOf(input.getTopright_Bottomleft()[0]) + "\n" + String.valueOf(input.getTopright_Bottomleft()[2]));
+        topright_bottomleft13.setText(String.valueOf(input.getTopright_Bottomleft()[1]) + "\n" + String.valueOf(input.getTopright_Bottomleft()[3]));
 
-        overall0.setText(String.valueOf(input.getOverall()[0]));
-        overall1.setText(String.valueOf(input.getOverall()[1]));
-        overall2.setText(String.valueOf(input.getOverall()[2]));
-        overall3.setText(String.valueOf(input.getOverall()[3]));
+        overall02.setText(String.valueOf(input.getOverall()[0]) + "\n" + String.valueOf(input.getOverall()[2]));
+        overall13.setText(String.valueOf(input.getOverall()[1]) + "\n" + String.valueOf(input.getOverall()[3]));
 
-        background0.setText(String.valueOf(input.getBackground()[0]));
-        background1.setText(String.valueOf(input.getBackground()[1]));
-        background2.setText(String.valueOf(input.getBackground()[2]));
-        background3.setText(String.valueOf(input.getBackground()[3]));
+        background02.setText(String.valueOf(input.getBackground()[0]) + "\n" + String.valueOf(input.getBackground()[2]));
+        background13.setText(String.valueOf(input.getBackground()[1]) + "\n" + String.valueOf(input.getBackground()[3]));
 
-        result0.setText(String.valueOf(input.getResult()[0]));
-        result1.setText(String.valueOf(input.getResult()[1]));
-        result2.setText(String.valueOf(input.getResult()[2]));
-        result3.setText(String.valueOf(input.getResult()[3]));
+        result02.setText(String.valueOf(input.getResult()[0]) + "\n" + String.valueOf(input.getResult()[2]));
+        result13.setText(String.valueOf(input.getResult()[1]) + "\n" + String.valueOf(input.getResult()[3]));
     }
 
     // Create a menu

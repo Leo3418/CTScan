@@ -26,35 +26,19 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/horizontal0"
+        <TextView android:id="@+id/horizontal02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/horizontal"
-            android:layout_alignStart="@id/horizontal"
+            android:layout_height="100dp"
+            android:layout_below="@+id/horizontal"
+            android:layout_alignStart="@+id/horizontal"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/horizontal1"
+        <TextView android:id="@+id/horizontal13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@id/horizontal0"
-            android:layout_alignTop="@+id/horizontal0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/horizontal2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/horizontal1"
-            android:layout_alignStart="@+id/horizontal0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/horizontal3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/horizontal2"
-            android:layout_below="@+id/horizontal1"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@+id/horizontal02"
+            android:layout_alignTop="@+id/horizontal02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -62,40 +46,24 @@
             android:text="@string/topleft_bottomright"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_toStartOf="@id/horizontal"
-            android:layout_below="@id/horizontal2"
+            android:layout_toStartOf="@+id/horizontal"
+            android:layout_below="@+id/horizontal02"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/topleft_bottomright0"
+        <TextView android:id="@+id/topleft_bottomright02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:layout_below="@+id/topleft_bottomright"
             android:layout_alignStart="@+id/topleft_bottomright"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/topleft_bottomright1"
+        <TextView android:id="@+id/topleft_bottomright13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@id/topleft_bottomright0"
-            android:layout_alignTop="@+id/topleft_bottomright0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/topleft_bottomright2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/topleft_bottomright1"
-            android:layout_alignStart="@+id/topleft_bottomright0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/topleft_bottomright3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/topleft_bottomright2"
-            android:layout_below="@+id/topleft_bottomright1"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@+id/topleft_bottomright02"
+            android:layout_alignTop="@+id/topleft_bottomright02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -104,39 +72,23 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/topleft_bottomright2"
+            android:layout_below="@+id/topleft_bottomright02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/vertical0"
+        <TextView android:id="@+id/vertical02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/vertical"
-            android:layout_alignStart="@id/vertical"
+            android:layout_height="100dp"
+            android:layout_below="@+id/vertical"
+            android:layout_alignStart="@+id/vertical"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/vertical1"
+        <TextView android:id="@+id/vertical13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@id/vertical0"
-            android:layout_alignTop="@+id/vertical0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/vertical2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/vertical1"
-            android:layout_alignStart="@+id/vertical0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/vertical3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/vertical2"
-            android:layout_below="@+id/vertical1"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@id/vertical02"
+            android:layout_alignTop="@+id/vertical02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -144,40 +96,24 @@
             android:text="@string/topright_bottomleft"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/horizontal"
-            android:layout_below="@id/horizontal2"
+            android:layout_toEndOf="@+id/horizontal"
+            android:layout_below="@+id/horizontal02"
             android:textAlignment="textEnd"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/topright_bottomleft0"
+        <TextView android:id="@+id/topright_bottomleft02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_height="100dp"
             android:layout_below="@id/topright_bottomleft"
-            android:layout_toStartOf="@id/topright_bottomleft1"
+            android:layout_toStartOf="@id/topright_bottomleft13"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/topright_bottomleft1"
+        <TextView android:id="@+id/topright_bottomleft13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignTop="@+id/topright_bottomleft0"
-            android:layout_alignEnd="@id/topright_bottomleft"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/topright_bottomleft2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/topright_bottomleft1"
-            android:layout_alignStart="@+id/topright_bottomleft0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/topright_bottomleft3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/topright_bottomleft2"
-            android:layout_below="@+id/topright_bottomleft1"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/topright_bottomleft02"
+            android:layout_alignEnd="@+id/topright_bottomleft"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -185,41 +121,25 @@
             android:text="@string/overall"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_toStartOf="@id/background"
-            android:layout_below="@id/vertical2"
+            android:layout_toStartOf="@+id/background"
+            android:layout_below="@+id/vertical02"
             android:paddingTop="@dimen/activity_vertical_margin"
             android:textAlignment="textStart"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/overall0"
+        <TextView android:id="@+id/overall02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/overall"
-            android:layout_alignStart="@id/overall"
+            android:layout_height="100dp"
+            android:layout_below="@+id/overall"
+            android:layout_alignStart="@+id/overall"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/overall1"
+        <TextView android:id="@+id/overall13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@id/overall0"
-            android:layout_alignTop="@+id/overall0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/overall2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/overall1"
-            android:layout_alignStart="@+id/overall0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/overall3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/overall2"
-            android:layout_below="@+id/overall1"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@+id/overall02"
+            android:layout_alignTop="@+id/overall02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -228,40 +148,24 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_below="@id/vertical2"
+            android:layout_below="@+id/vertical02"
             android:paddingTop="@dimen/activity_vertical_margin"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/background0"
+        <TextView android:id="@+id/background02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/background"
-            android:layout_alignStart="@id/background"
+            android:layout_height="100dp"
+            android:layout_below="@+id/background"
+            android:layout_alignStart="@+id/background"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/background1"
+        <TextView android:id="@+id/background13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@id/background0"
-            android:layout_alignTop="@+id/background0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/background2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/background1"
-            android:layout_alignStart="@+id/background0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/background3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/background2"
-            android:layout_below="@+id/background1"
+            android:layout_height="100dp"
+            android:layout_toEndOf="@+id/background02"
+            android:layout_alignTop="@+id/background02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
@@ -269,41 +173,25 @@
             android:text="@string/result"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@id/background"
-            android:layout_below="@id/vertical2"
+            android:layout_toEndOf="@+id/background"
+            android:layout_below="@+id/vertical02"
             android:paddingTop="@dimen/activity_vertical_margin"
             android:textAlignment="textEnd"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <TextView android:id="@+id/result0"
+        <TextView android:id="@+id/result02"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@id/result"
-            android:layout_toStartOf="@id/result1"
+            android:layout_height="100dp"
+            android:layout_below="@+id/result"
+            android:layout_toStartOf="@+id/result13"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <TextView android:id="@+id/result1"
+        <TextView android:id="@+id/result13"
             android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignEnd="@id/result"
-            android:layout_alignTop="@+id/result0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/result2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_below="@+id/result1"
-            android:layout_alignStart="@+id/result0"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
-
-        <TextView android:id="@+id/result3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_toEndOf="@+id/result2"
-            android:layout_below="@+id/result1"
+            android:layout_height="100dp"
+            android:layout_alignEnd="@+id/result"
+            android:layout_alignTop="@+id/result02"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
